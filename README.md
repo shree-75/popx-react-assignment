@@ -1,16 +1,157 @@
-# React + Vite
+# 🚀 PopX React Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built as part of a frontend assignment using **React**, **Vite**, and **React Router**. The project follows modern development practices including **GitHub Actions (CI)**, **Docker**, and **unit testing**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+* Responsive UI
+* React Router navigation
+* Component-based architecture
+* Fast development with Vite
+* Unit testing with Vitest
+* Continuous Integration using GitHub Actions
+* Docker support for containerized development
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* React Router
+* JavaScript (ES6+)
+* CSS
+* Vitest
+* Git & GitHub
+* GitHub Actions
+* Docker
+
+---
+
+## 📂 Project Structure
+
+```text
+popx-app/
+│── public/
+│── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   └── tests/
+│── .github/
+│── Dockerfile
+│── .dockerignore
+│── package.json
+│── vite.config.js
+└── README.md
+```
+
+---
+
+## ▶️ Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shree-75/popx-react-assignment.git
+```
+
+Move into the project:
+
+```bash
+cd popx-react-assignment
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧪 Run Tests
+
+```bash
+npm test
+```
+
+---
+
+## 🐳 Run with Docker
+
+### Build the Docker image
+
+```bash
+docker build -t popx-app .
+```
+
+### Run the Docker container
+
+```bash
+docker run -p 5173:5173 popx-app
+```
+
+Open:
+
+```
+http://localhost:5173
+```
+
+---
+
+## ⚙️ Continuous Integration
+
+This project includes a GitHub Actions workflow that automatically:
+
+* Installs dependencies
+* Runs tests
+* Builds the project
+* Verifies the application builds successfully
+
+---
+
+## 📈 Skills Demonstrated
+
+* React Development
+* Component-Based Architecture
+* Routing
+* Frontend Project Structure
+* Git & GitHub
+* Continuous Integration (CI)
+* Docker Containerization
+* Unit Testing
+
+---
+
+## 👨‍💻 Author
+
+**Srinivas Nagisetti**
+
+GitHub: https://github.com/shree-75
+
+---
+
+### Future Improvements
+
+* Docker Compose
+* Production Docker Image (Nginx)
+* Kubernetes Deployment
+* Docker Hub Publishing
+* Cloud Deployment (AWS/Azure/Render)
+* End-to-End CI/CD Pipeline
